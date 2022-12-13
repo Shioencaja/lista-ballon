@@ -18,7 +18,7 @@
       class="col-8 d-flex align-items-center justify-content-center rounded text-light"
       [ngClass]="alumno.asistencia ? 'bg-success' : 'bg-danger'"
     >
-      {{ alumno.nombre }}
+      {{ alumno.nombre | titlecase }}
     </div>
     <div class="col-4 d-grid">
       <button

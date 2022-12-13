@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaAlumnosComponent implements OnInit {
   public alumnos = [
-    { nombre: 'Camila Ballon Fox', asistencia: false },
-    { nombre: 'Gabriel Ballon Fox', asistencia: false },
-    { nombre: 'Julia Ballon Fox', asistencia: false },
-    { nombre: 'Cecilia Ballon Fox', asistencia: false },
+    { nombre: 'camila ballon Fox', asistencia: false },
+    { nombre: 'gabriel ballon fox', asistencia: false },
+    { nombre: 'julia ballon fox', asistencia: false },
+    { nombre: 'cecilia ballon fox', asistencia: false },
   ];
   nuevoAlumno(event: Event) {
     const nuevo = document.getElementById('nuevo-alumno') as HTMLInputElement;
